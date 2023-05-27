@@ -5,7 +5,7 @@ import './global.css'
 
 import { Home } from './pages/home'
 import Task from './pages/task'
-import List from './pages/list'
+import Calculator from './pages/calculator'
 
 const router = createBrowserRouter([
   {
@@ -17,8 +17,8 @@ const router = createBrowserRouter([
     element: <Task />,
   },
   {
-    path: '/list',
-    element: <List />,
+    path: '/calculator',
+    element: <Calculator />,
   },
 ])
 
