@@ -51,7 +51,7 @@ export default function NumberList({numberList, set_numberList}: IProps) {
   }
 
   return (
-    <div className='mt-8 flex flex-col items-center w-full'>
+    <div className='flex flex-col items-center w-full'>
       {/* Display the calculator of numbers and the interaction elements */}
 
       <section className='flex justify-center'>
